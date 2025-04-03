@@ -1,3 +1,3 @@
-![image](https://github.com/user-attachments/assets/c6fa7d03-9b90-4c0b-a3b2-9d4abb74b6a7)
+![image](https://github.com/user-attachments/assets/88f6ef9a-6991-43ba-8c82-401b31532c6e)
 
 https://registerformexample.netlify.app/
