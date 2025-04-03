@@ -15,7 +15,7 @@
         <label for="name">
           Nome
         </label>
-        <input type="name" name="name" id="name" placeholder="seu nome" required>
+        <input type="text" name="name" id="name" placeholder="seu nome" required>
         <label for="email">
           E-mail
         </label>
@@ -23,7 +23,7 @@
         <label for="password">
           Senha
         </label>
-        <input type="password" pattern="^(?=.*[\W_]).{6,}$" title="A senha deve ter no mínimo 6 caracteres e pelo menos um caractere especial (!@#$%^&* etc.)" name="password" id="password" placeholder="digite sua senha" required>
+        <input name="password" id="password" placeholder="mínimo 6 caracteres e um caractere especial" type="password" pattern="^(?=.*[\W_]).{6,}$" title="A senha deve ter no mínimo 6 caracteres e pelo menos um caractere especial (!@#$%^&* etc.)" required>
         <button class="form-submit" type="submit">Enviar dados</button>
       </form>
     </main>
