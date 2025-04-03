@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <main class="content">
+      <form class="form-register">
+        <h1 class="form-title">{ Cadastro }</h1>
+        <label for="name">
+          Nome
+        </label>
+        <input type="name" name="name" id="name" placeholder="seu nome" required>
+        <label for="email">
+          E-mail
+        </label>
+        <input type="email" name="email" id="email" placeholder="user@email.com" required>
+        <label for="password">
+          Senha
+        </label>
+        <input type="password" pattern="^(?=.*[\W_]).{6,}$" title="A senha deve ter no mínimo 6 caracteres e pelo menos um caractere especial (!@#$%^&* etc.)" name="password" id="password" placeholder="digite sua senha" required>
+        <button class="form-submit" type="submit">Enviar dados</button>
+      </form>
+    </main>
+  </body>
+
+</html>
